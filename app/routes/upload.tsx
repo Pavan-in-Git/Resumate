@@ -120,11 +120,11 @@ const UploadPage = () => {
                     </motion.div>
 
                     {/* Form Section */}
-                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start justify-items-center">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start justify-items-stretch">
                         {/* Left Column - Form */}
                         <motion.div 
                             variants={fadeInUp}
-                            className="lg:col-span-2 w-full max-w-2xl mx-auto"
+                            className="lg:col-span-2 w-full"
                         >
                             <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-4 shadow-xl border border-white/30 w-full">
                                 <form id="upload-form" onSubmit={handleSubmit} className="space-y-3">
@@ -133,8 +133,8 @@ const UploadPage = () => {
                                         <h2 className="text-lg font-bold text-gray-900 mb-1">Resume Analysis Form</h2>
                                         <p className="text-xs text-gray-600">Fill in the details below to get personalized feedback</p>
                                     </div>
-                                                                         {/* All Input Fields in Single Column */}
-                                     <div className="space-y-3">
+                                    {/* All Input Fields in Single Column */}
+                                     <div className="grid grid-cols-1 gap-3 w-full">
                                          <div className="space-y-1">
                                              <label htmlFor="company-name" className="block text-sm font-semibold text-gray-700">
                                                  Company Name
@@ -233,7 +233,7 @@ const UploadPage = () => {
                         {/* Right Column - Info Panel */}
                         <motion.div 
                             variants={fadeInUp}
-                            className="lg:col-span-1 space-y-6 w-full max-w-md mx-auto"
+                            className="lg:col-span-1 space-y-6 w-full"
                         >
                             {/* Tips Card */}
                             <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-3xl p-6 border border-blue-100">

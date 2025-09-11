@@ -93,16 +93,16 @@ const Upload = ({ onFileSelect, isProcessing = false, statusText = '', progress 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="space-y-6"
+            className="space-y-6 w-full self-stretch"
           >
             <div
               {...getRootProps()}
               className={`
-                relative p-8 text-center transition-all duration-300 cursor-pointer
-                bg-white/90 backdrop-blur-sm rounded-2xl border-2 border-dashed min-h-[150px] flex flex-col items-center justify-center
+                relative p-8 text-center transition-all duration-300 cursor-pointer w-full max-w-2xl mx-auto
+                bg-white/90 backdrop-blur-sm rounded-2xl border-2 border-dashed min-h-[200px] flex flex-col items-center justify-center
                 ${isDragActive 
                   ? 'border-blue-500 bg-blue-50/80 scale-105' 
-                  : 'border-gray-200 hover:border-blue-400 hover:bg-blue-50/50'
+                  : 'border-gray-300 hover:border-blue-400 hover:bg-blue-50/50'
                 }
               `}
             >
