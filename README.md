@@ -1,17 +1,8 @@
 # ResuMate - AI-Powered Resume Analysis
 
-<div align="center">
-  <br />
-  <img src="public/readme/hero.webp" alt="ResuMate Banner" width="800">
-  <br />
 
-  <div>
-    <img alt="React" src="https://img.shields.io/badge/React-19.1.0-4c84f3?style=for-the-badge&logo=react&logoColor=white">
-    <img src="https://img.shields.io/badge/-Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="TypeScript" />
-    <img alt="Puter.js" src="https://img.shields.io/badge/Puter.js-181758?style=for-the-badge&logoColor=white">
-    <img alt="Framer Motion" src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white">
-  </div>
+
+ 
 
   <h3 align="center">🚀 Transform Your Resume with AI Intelligence</h3>
   <p align="center">Built with ❤️ by <strong>Pavan Sai</strong></p>
@@ -134,8 +125,8 @@ This project is licensed under the MIT License.
 ## 📞 Contact
 
 **Pavan Sai**
-- GitHub: [@pavansai](https://github.com/pavansai)
-- Email: pavansai@example.com
+- GitHub: [@Pavan-in-Git]([https://github.com/pavansai](https://github.com/Pavan-in-Git))
+- Email: pavansaibandreddi@gmail.com
 
 ---
 
